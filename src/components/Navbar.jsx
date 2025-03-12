@@ -37,7 +37,7 @@ const Navbar = () => {
             duration={50}
             className="cursor-pointer text-light/80 hover:text-primary transition-colors"
           >
-            Experience and Achievements
+            Achievements & University Activities
           </Link>
           <Link
             to="projects"

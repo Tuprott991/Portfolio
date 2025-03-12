@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaFacebook } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -33,6 +33,14 @@ const Footer = () => {
                 className="text-light/80 hover:text-primary transition-colors"
               >
                 <FaEnvelope size={24} className="hover:animate-pulse" />
+              </a>
+              <a
+                href="https://www.facebook.com/ktu.tu.75"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-light/80 hover:text-primary transition-colors"
+              >
+                <FaFacebook size={24} className="hover:animate-pulse" />
               </a>
             </div>
           </div>

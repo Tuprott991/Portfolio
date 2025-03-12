@@ -58,21 +58,30 @@ const ProjectCard = ({ title, description, technologies, githubUrl, liveUrl, ima
 const Projects = () => {
   const projects = [
     {
-      title: "Booking Tour",
-      description: "A comprehensive tour booking platform for Blue Moon Travel",
-      technologies: ["Next.js", "React", "TypeScript", "MongoDB"],
+      title: "Educhain - Next-gen Personalized Learning Platform",
+      description: "A Full-stack web application that combines blockchain and AI technology for efficient and personalized education, that have functions like lightRAG-chatbot, creating courses, taking quizzes, and more.",
+      technologies: ["FastAPI", "React", "Langchain", "Solidity", "Azure", "PostgreSQL"],
       githubUrl: "https://github.com/ariesanhthu/BMT_bookingtour",
-      liveUrl: "https://www.bluemoontravel.com.vn",
-      image: "https://raw.githubusercontent.com/ariesanhthu/ariesanhthu.github.io/refs/heads/main/Screenshot%20(1435).png"
+      image: "https://github.com/Tuprott991/Educhain-AI/blob/main/images/homepage.png?raw=true"
     },
     {
-      title: "AI-Powered Virtual Try-On Clothing Store",
-      description: "An innovative e-commerce platform with virtual try-on capabilities",
-      technologies: ["Next.js", "React", "TypeScript", "Sanity"],
-      githubUrl: "https://github.com/ariesanhthu/vton-webstore",
-      liveUrl: "https://vton-webstore.vercel.app",
-      image: "https://raw.githubusercontent.com/ariesanhthu/ariesanhthu.github.io/refs/heads/main/Screenshot%20(1436).png"
+      title: "Multimodal Video Retrieval System",
+      description: "An innovative system that retrieves videos event based on different modalities such as text, image, and audio",
+      technologies: ["Flask", "React", "CLIP", "FAISS", "Underthesea", "OpenAI"],
+      image: "https://github.com/Tuprott991/AIthena-Multimodal-Video-Retrieval-System/blob/main/images/UI.drawio.png?raw=true"
     },
+    {
+      title: "Vision Language Object Tracking",
+      description: "A system that tracks objects in videos based on the text description",
+      technologies: ["YOLO", "CLIP", "OpenCV", "DeepSORT"],
+      image: "https://github.com/Tuprott991/Object-tracking-Natural-Language/blob/main/images/image.png?raw=true"
+    },
+    {
+      title: "IntelBin - AIot Garbage Classification Bin",
+      description: "A smart garbage bin that uses AI to classify waste into 4 categories: Metal, Plastic, Organic, and Hazardous",
+      technologies: ["YOLO", "Node-RED", "Wokwi", "ESP32", "Arduino"],
+      image: "https://github.com/Tuprott991/IntelBin-AIoT-Garbage-Classification/raw/main/images/intelbin.png"
+    }
   ];
 
   return (
