@@ -61,25 +61,28 @@ const Projects = () => {
       title: "Educhain - Next-gen Personalized Learning Platform",
       description: "A Full-stack web application that combines blockchain and AI technology for efficient and personalized education, that have functions like lightRAG-chatbot, creating courses, taking quizzes, and more.",
       technologies: ["FastAPI", "React", "Langchain", "Solidity", "Azure", "PostgreSQL"],
-      githubUrl: "https://github.com/ariesanhthu/BMT_bookingtour",
+      githubUrl: "https://github.com/Tuprott991/Educhain-AI",
       image: "https://github.com/Tuprott991/Educhain-AI/blob/main/images/homepage.png?raw=true"
     },
     {
       title: "Multimodal Video Retrieval System",
       description: "An innovative system that retrieves videos event based on different modalities such as text, image, and audio",
       technologies: ["Flask", "React", "CLIP", "FAISS", "Underthesea", "OpenAI"],
+      githubUrl: "https://github.com/Tuprott991/AIthena-Multimodal-Video-Retrieval-System",
       image: "https://github.com/Tuprott991/AIthena-Multimodal-Video-Retrieval-System/blob/main/images/UI.drawio.png?raw=true"
     },
     {
       title: "Vision Language Object Tracking",
       description: "A system that tracks objects in videos based on the text description",
       technologies: ["YOLO", "CLIP", "OpenCV", "DeepSORT"],
+      githubUrl: "https://github.com/Tuprott991/Object-tracking-Natural-Language",
       image: "https://github.com/Tuprott991/Object-tracking-Natural-Language/blob/main/images/image.png?raw=true"
     },
     {
       title: "IntelBin - AIot Garbage Classification Bin",
       description: "A smart garbage bin that uses AI to classify waste into 4 categories: Metal, Plastic, Organic, and Hazardous",
       technologies: ["YOLO", "Node-RED", "Wokwi", "ESP32", "Arduino"],
+      githubUrl: "https://github.com/Tuprott991/IntelBin-AIoT-Garbage-Classification",
       image: "https://github.com/Tuprott991/IntelBin-AIoT-Garbage-Classification/raw/main/images/intelbin.png"
     }
   ];
