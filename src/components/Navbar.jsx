@@ -48,6 +48,14 @@ const Navbar = () => {
             Projects
           </Link>
           <Link
+            to="publications"
+            smooth={true}
+            duration={50}
+            className="cursor-pointer text-light/80 hover:text-primary transition-colors"
+          >
+            Publications
+          </Link>
+          <Link
             to="contact"
             smooth={true}
             duration={50}
