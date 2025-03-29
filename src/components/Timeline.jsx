@@ -30,7 +30,7 @@ const Timeline = () => {
   const experiences = [
     {
       year: 'March 2025',
-      title: 'Top 10 of Web3 & AI IDEATHON 2025 (Still in progress)',
+      title: 'Champion of Web3 & AI IDEATHON 2025 (Over 450+ teams)',
       company: 'Web3 HACKFEST, ICT-Ho Chi Minh City, VNG',
       description: 'Build Educhain - Next-gen personalized education platform that combine blockchain and AI technology',
       achievements: [
