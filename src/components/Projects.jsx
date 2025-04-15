@@ -65,11 +65,25 @@ const Projects = () => {
       image: "https://github.com/Tuprott991/Educhain-AI/blob/main/images/homepage.png?raw=true"
     },
     {
+      title: "Eventslens - Multi-label photo album event recognition",
+      description: "Developing and training a transformer-based model for photo album event recognition. Achieved mAP >85% for 4 Testset",
+      technologies: ["Pytorch", "Transformer", "Scikit-learn", "Huggingface"],
+      githubUrl: "https://github.com/Tuprott991/EventLens-Computer-Vision-Final-Project",
+      image: "https://github.com/Tuprott991/EventLens-Computer-Vision-Final-Project/blob/main/architecture.png?raw=true"
+    },
+    {
       title: "Multimodal Video Retrieval System",
       description: "An innovative system that retrieves videos event based on different modalities such as text, image, and audio",
       technologies: ["Flask", "React", "CLIP", "FAISS", "Underthesea", "OpenAI"],
       githubUrl: "https://github.com/Tuprott991/AIthena-Multimodal-Video-Retrieval-System",
       image: "https://github.com/Tuprott991/AIthena-Multimodal-Video-Retrieval-System/blob/main/images/UI.drawio.png?raw=true"
+    },
+    {
+      title: "Bone Disease Visual Question & Answering",
+      description: "Developing and training a multimodal transformer model for Bone Disease Visual Question Answering (VQA). Achieved Precision of >90% for validation set",
+      technologies: ["Pytorch", "Transformer", "Scikit-learn", "Huggingface"],
+      githubUrl: "https://github.com/Tuprott991/BoneDiseaseVQA-2",
+      image: "https://tuktu-portfolio.netlify.app/arch.png"
     },
     {
       title: "Vision Language Object Tracking",
