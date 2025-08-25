@@ -41,6 +41,18 @@ const Timeline = () => {
       ]
     },
     {
+      year: 'August 2025',
+      title: 'Top 1 Track 4 & Finalist @ VPBank Technology Hackathon 2025',
+      company: 'VPBank',
+      description: 'Build VPFlow - a serverless web application that leverages AI to optimize and redesign business processes in dynamic swimlane diagrams.',
+      achievements: [
+        'Led the team to develop the product',
+        'Researched the technology and used',
+        'Designed the platform and the system',
+        'Present the idea and the product to the judges'
+      ]
+    },
+    {
       year: 'Feb 2025',
       title: 'Paper Accepted at IUKM 2025',
       company: 'JAIST - HCMUS - IUH',

@@ -58,11 +58,18 @@ const ProjectCard = ({ title, description, technologies, githubUrl, liveUrl, ima
 const Projects = () => {
   const projects = [
     {
+      title: "VPFlow - AI-Powered Process Redesign",
+      description: "A serverless web application that leverages AI to optimize and redesign business processes in dynamic swimlane diagrams.",
+      technologies: ["React", "FastAPI", "AWS S3, DynamoDB, Neptune", "AWS SageMaker, Bedrock, Lambda"],
+      githubUrl: "https://github.com/Tuprott991/VPFlow",
+      image: "https://github.com/Tuprott991/VPFlow/blob/main/document/AWS%20Cloud%20Architechture.png?raw=true"
+    },
+    {
       title: "Educhain - Next-gen Personalized Learning Platform",
       description: "A Full-stack web application that combines blockchain and AI technology for efficient and personalized education, that have functions like lightRAG-chatbot, creating courses, taking quizzes, and more.",
       technologies: ["FastAPI", "React", "Langchain", "Solidity", "Azure", "PostgreSQL"],
       githubUrl: "https://github.com/Tuprott991/Educhain-AI",
-      image: "https://github.com/Tuprott991/Educhain-AI/blob/main/images/homepage.png?raw=true"
+      image: "https://github.com/Tuprott991/Educhain-AI/blob/main/frontend/public/CourseDetails/courseimage.png?raw=true"
     },
     {
       title: "Eventslens - Multi-label photo album event recognition",
