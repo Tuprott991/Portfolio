@@ -32,6 +32,14 @@ const Navbar = () => {
             About
           </Link>
           <Link
+            to="work-experience"
+            smooth={true}
+            duration={50}
+            className="cursor-pointer text-light/80 hover:text-primary transition-colors"
+          >
+            Experience
+          </Link>
+          <Link
             to="timeline"
             smooth={true}
             duration={50}

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import WorkExperience from './components/WorkExperience';
 import Timeline from './components/Timeline';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <main>
         <Hero />
+        <WorkExperience />
         <Timeline />
         <Projects />
         <Publication />
