@@ -15,7 +15,7 @@ const Hero = () => {
             Hi, I'm <span className="gradient-text">Nguyễn Văn Tú</span>
           </h1>
           <h2 className="text-xl md:text-2xl text-light/70 mb-6">
-            AI Engineer Oriented | HCMUS Student
+            AI Engineer @ <Prudential></Prudential>, ex-AI @ Vnemex | HCMUS Student
           </h2>
           <p className="text-light/80 mb-8">
           A passionate Information Technology student at <a href="https://hcmus.edu.vn/" target="_blank" className="text-primary hover:text-secondary transition-colors">University of Science - VNUHCM</a>. Love to research & build LLMs, Computer Vision project

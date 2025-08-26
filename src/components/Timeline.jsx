@@ -30,7 +30,7 @@ const Timeline = () => {
   const experiences = [
     {
       year: 'March 2025',
-      title: 'Champion of Web3 & AI IDEATHON 2025 (Over 450+ teams)',
+      title: 'Champion of Web3 & AI IDEATHON 2025 (National - Among 450+ teams)',
       company: 'Web3 HACKFEST, ICT-Ho Chi Minh City, VNG',
       description: 'Build Educhain - Next-gen personalized education platform that combine blockchain and AI technology',
       achievements: [
@@ -43,7 +43,7 @@ const Timeline = () => {
     
     {
       year: 'August 2025',
-      title: 'Top 1 Track 4 & Finalist @ VPBank Technology Hackathon 2025',
+      title: 'Top 1 Track 4 & Finalist @ VPBank Technology Hackathon 2025 (National)',
       company: 'VPBank',
       description: 'Build VPFlow - a serverless web application that leverages AI to optimize and redesign business processes in dynamic swimlane diagrams.',
       achievements: [
@@ -55,7 +55,7 @@ const Timeline = () => {
     },
     {
       year: 'August 2025',
-      title: 'Third Prize @ Intel AI Training Program 2025',
+      title: 'Third Prize @ Intel AI Training Program 2025 (National)',
       company: 'Intel Corp',
       description: 'Developed Intel Glasses - a AI-Driven Glasses with for visually impaired people with advanced features such as: hazard detection, surrounding description, traffic sign classification, OCR.',
       achievements: [
