@@ -117,8 +117,8 @@ const Timeline = () => {
   const universityWorks = [
     
     {
-      year: '2023 - NOW',
-      title: 'Management Committee Member - Media Club M.A.T',
+      year: '2023 - July 2025',
+      title: 'Vice President - Media Club M.A.T',
       company: 'VNUHCM-University of Science',
       description: 'Working as a manager of the Media Club M.A.T',
       achievements: [
@@ -129,7 +129,7 @@ const Timeline = () => {
       ]
     },
     {
-      year: '2023 - NOW',
+      year: '2023 - July 2025',
       title: 'Technical Committee Member - USAC Astronomy Club',
       company: 'VNUHCM-University of Science',
       description: 'Working as a technical committee member of the USAC Astronomy Club',
