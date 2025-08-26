@@ -40,17 +40,7 @@ const Timeline = () => {
         'Present the idea and the product to the judges'
       ]
     },
-    {
-      year: 'August 2025',
-      title: 'Third Prize @ Intel AI Training Program 2025',
-      company: 'Intel Corp',
-      description: 'Developed Intel Glasses - a AI-Driven Glasses with for visually impaired people with advanced features such as: hazard detection, surrounding description, traffic sign classification, OCR.',
-      achievements: [
-        'Led a team of 3 developers',
-        'Trained and fine-tuned multiple AI models',
-        'Implement Code and AI pipeline on edge device (Intel UP4000 & ESP32-S3)'
-      ]
-    },
+    
     {
       year: 'August 2025',
       title: 'Top 1 Track 4 & Finalist @ VPBank Technology Hackathon 2025',
@@ -61,6 +51,17 @@ const Timeline = () => {
         'Researched the technology and used',
         'Designed the platform and the system',
         'Present the idea and the product to the judges'
+      ]
+    },
+    {
+      year: 'August 2025',
+      title: 'Third Prize @ Intel AI Training Program 2025',
+      company: 'Intel Corp',
+      description: 'Developed Intel Glasses - a AI-Driven Glasses with for visually impaired people with advanced features such as: hazard detection, surrounding description, traffic sign classification, OCR.',
+      achievements: [
+        'Led a team of 3 developers',
+        'Trained and fine-tuned multiple AI models',
+        'Implement Code and AI pipeline on edge device (Intel UP4000 & ESP32-S3)'
       ]
     },
     {
