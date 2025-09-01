@@ -51,8 +51,8 @@ const Publication = () => {
       authors: ["Tu Van Nguyen", "Nghia Trung Duong", "Nhan Thanh Pham", "Thanh Xuan Luong", "Dang Duy Bui"],
       conference: "The Eleventh International Symposium on Integrated Uncertainty in Knowledge Modelling and Decision Making (IUKM)",
       year: "2025",
-      paperPdf: "IUKM2025.pdf",
-      paperLink: "https://link-to-publisher-site.com/paper1"
+      paperPdf: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29",
+      paperLink: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29"
     },
     // Add more publications as needed
   ];
