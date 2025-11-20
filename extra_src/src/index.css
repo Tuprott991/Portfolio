@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CSS Custom Properties for better theming */
+:root {
+  /* Colors */
+  --color-primary: #3b82f6;
+  --color-secondary: #8b5cf6;
+  --color-accent: #06b6d4;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  
+  /* Dark theme */
+  --color-dark: #0f0f23;
+  --color-darker: #080813;
+  --color-dark-card: #1a1a2e;
+  --color-dark-accent: #16213e;
+  --color-dark-border: #2d3748;
+  
+  /* Typography */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-display: 'Poppins', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Spacing */
+  --section-padding: 5rem 1rem;
+  --container-padding: 1rem;
+  
+  /* Animations */
+  --transition-fast: 0.15s ease-out;
+  --transition-normal: 0.3s ease-out;
+  --transition-slow: 0.5s ease-out;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 3rem 1rem;
+  }
+}
+
+/* Base styles */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, var(--color-dark) 0%, var(--color-darker) 100%);
+  color: #f8fafc;
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--color-primary), var(--color-secondary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, var(--color-secondary), var(--color-primary));
+}
+
+/* Custom utility classes */
+.section-padding {
+  @apply py-20 px-4 md:px-8 lg:px-16;
+}
+
+.container-width {
+  @apply max-w-7xl mx-auto;
+}
+
+/* Enhanced glow effect */
+.glow-effect {
+  @apply transition-all duration-300 ease-out;
+  position: relative;
+}
+
+.glow-effect:hover {
+  animation: glow 2s ease-in-out infinite alternate;
+  transform: translateY(-2px);
+}
+
+/* Modern gradient text */
+.gradient-text {
+  @apply bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+/* Enhanced glass effect with better aesthetics */
+.glass-effect {
+  @apply border border-white/10 bg-dark-card/80 backdrop-blur-xl;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  transition: all var(--transition-normal);
+}
+
+.glass-effect:hover {
+  @apply border-primary/30 bg-dark-card/90;
+  box-shadow: 
+    0 12px 40px rgba(0, 0, 0, 0.4),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 0 20px rgba(59, 130, 246, 0.1);
+  transform: translateY(-4px);
+}
+
+/* Modern card styles */
+.modern-card {
+  @apply glass-effect rounded-2xl p-6 transition-all duration-300;
+  background: linear-gradient(135deg, 
+    rgba(26, 26, 46, 0.9) 0%, 
+    rgba(22, 33, 62, 0.8) 100%);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.modern-card:hover {
+  border-color: rgba(59, 130, 246, 0.3);
+  box-shadow: 
+    0 20px 25px -5px rgba(0, 0, 0, 0.1),
+    0 10px 10px -5px rgba(0, 0, 0, 0.04),
+    0 0 30px rgba(59, 130, 246, 0.1);
+}
+
+/* Button styles */
+.btn-primary {
+  @apply bg-gradient-to-r from-primary to-accent text-white px-8 py-3 rounded-full font-semibold;
+  @apply transition-all duration-300 ease-out;
+  @apply hover:shadow-glow hover:scale-105;
+  background-size: 200% 200%;
+  animation: gradientShift 3s ease-in-out infinite;
+}
+
+.btn-secondary {
+  @apply border-2 border-primary/60 text-primary px-8 py-3 rounded-full font-semibold;
+  @apply transition-all duration-300 ease-out;
+  @apply hover:bg-primary hover:text-white hover:border-primary hover:shadow-glow;
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-secondary::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.2), transparent);
+  transition: left 0.5s;
+}
+
+.btn-secondary:hover::before {
+  left: 100%;
+}
+
+/* Enhanced grid background */
+.grid-bg {
+  background-image: 
+    linear-gradient(rgba(59, 130, 246, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.03) 1px, transparent 1px);
+  background-size: 60px 60px;
+  position: relative;
+}
+
+.grid-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+              radial-gradient(circle at 40% 80%, rgba(6, 182, 212, 0.1) 0%, transparent 50%);
+  pointer-events: none;
+}
+
+/* Floating animation for hero elements */
+.float-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Text selection */
+::selection {
+  background: rgba(59, 130, 246, 0.3);
+  color: white;
+}
+
+/* Focus states */
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+/* Loading spinner */
+.spinner {
+  @apply w-8 h-8 border-4 border-primary/30 border-t-primary rounded-full animate-spin;
+}
+
+/* Smooth transitions for all interactive elements */
+* {
+  transition: color var(--transition-fast), 
+              background-color var(--transition-fast),
+              border-color var(--transition-fast),
+              opacity var(--transition-fast);
+}
