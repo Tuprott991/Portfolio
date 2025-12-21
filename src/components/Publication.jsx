@@ -54,6 +54,14 @@ const Publication = () => {
       paperPdf: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29",
       paperLink: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29"
     },
+    {
+      title: "AIthena-Vision: Adaptive Temporal Multimodal Event Retrieval with LLM-generated Multiperspective Fusion",
+      authors: ["Tu Van Nguyen", "Nghia Trung Duong", "Nhan Thanh Pham", "Huu Truong Le Nguyen", "Quoc Khoi Le"],
+      conference: "The 14th International Conference Symposium on Information and Communication Technology (SoICT 2025)", 
+      year: "2025",
+      paperPdf: "",
+      paperLink: "https://soict.hcmus.edu.vn/2025/proceedings/"
+    },
     // Add more publications as needed
   ];
 
