@@ -40,7 +40,32 @@ const Timeline = () => {
         'Present the idea and the product to the judges'
       ]
     },
-    
+
+    {
+      year: 'Dec 2025',
+      title: 'Finalist International Data For Life 2025 (among 2600 teams worldwide)',
+      company: 'Ministry of Public Security',
+      description: 'Build MedSightAI - An advanced xAI-powered medical image analysis platform to assist radiologists in accurate and efficient diagnosis, and support medical education.',
+      achievements: [
+        'Led the team to develop the product',
+        'Researched the technology and used',
+        'Designed the platform and the system',
+        'Present the idea and the product to the judges'
+      ]
+    },
+
+    {
+      year: 'Nov 2025',
+      title: 'Consolation Prize AI Challenge HCMC 2025 (National, among 900+ teams)',
+      company: 'Ho Chi Minh City, Vietnam Information Technology Association',
+      description: 'AIthena-Vision: Adaptive Temporal Multimodal Event Retrieval with LLM-generated Multiperspective Fusion',
+      achievements: [
+        'Led the team to develop the product',
+        'Researched the technology and used',
+        'Designed the platform and the system',
+        'Present the idea and the product to the judges'  
+      ]
+    },
     {
       year: 'August 2025',
       title: 'Top 1 Track 4 & Finalist @ VPBank Technology Hackathon 2025 (National)',
