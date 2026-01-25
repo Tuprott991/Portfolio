@@ -116,7 +116,7 @@ const ExperienceItem = ({
         </div>
 
         {/* Description */}
-        <p className="text-light/80 mb-3 leading-relaxed">{description}</p>
+        <p className="text-light/80 mb-3 leading-relaxed whitespace-pre-line">{description}</p>
 
         {/* Skills */}
         {skills && skills.length > 0 && (
@@ -141,12 +141,23 @@ const WorkExperience = () => {
     {
       company: 'Prudential Vietnam Assurance Private Ltd.',
       logo: 'https://companieslogo.com/img/orig/PUK-8e5412a2.png?t=1729229413',
-      position: 'AI Engineer Intern',
+      position: 'AI Engineer',
       employmentType: 'Full-time',
       duration: 'Jul 2025 - Present',
       location: 'Ho Chi Minh City, Vietnam',
-      description: 'Work on an Agentic AI project, focusing on Reasoning LLMs, RAG, Document analysis, Knowledge Bases/Graphs, and Vector Databases',
-      skills: ['Large Language Models', 'RAG', 'Vector Databases', 'Knowledge Graphs', 'Document Analysis', 'Agentic AI']
+      description: `- Worked on Agentic AI systems, focusing on Reasoning-capable LLMs and advanced memory & RAG architectures
+                    - Developed voice-based AI components, including deep voice analysis and text-to-speech (TTS)`,
+      skills: ['Large Language Models', 'RAG', 'Vector Databases', 'Knowledge Graphs', 'Document Analysis', 'Agentic AI']     
+    },
+        {
+      company: 'New Turing Institue (NTI).',
+      logo: 'https://newturing.ai/_next/static/media/thumb.df09c5e4.jpg',
+      position: 'GStar NTI Global Talent Program 2025',
+      employmentType: 'Full-time',
+      duration: 'Jul 2025 - Dec 2025',
+      location: 'Ho Chi Minh City, Vietnam',
+      description: `- GStar is a high-impact global AI talent program designed to fast-track individual talents, especially rising leaders from Asia-Pacific and beyond, into the global AI world.\n- Learned from engineers and researchers of Google DeepMind, OpenAI, Standford,... on cutting-edge topics in LLMs and multi-agent systems.`,
+      skills: ['Large Language Models', 'Natural Language Processing', 'Pytorch', 'Multi-Agent Systems']
     },
     {
       company: 'Vnemex',
