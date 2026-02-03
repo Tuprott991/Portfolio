@@ -41,9 +41,9 @@ const Hero = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
-          className="hidden md:block"
+          className="flex justify-center"
         >
-          <div className="relative w-full max-w-[400px] mx-auto">
+          <div className="relative w-full max-w-[250px] md:max-w-[400px] mx-auto">
             <div className="absolute -inset-0.5 bg-gradient-to-r from-primary to-secondary rounded-full blur-md opacity-75 animate-pulse"></div>
             <img
               src="https://avatars.githubusercontent.com/u/165151839?v=4"

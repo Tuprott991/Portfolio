@@ -58,6 +58,22 @@ const ProjectCard = ({ title, description, technologies, githubUrl, liveUrl, ima
 const Projects = () => {
   const projects = [
     {
+      title: "MedSight AI - xAI-Powered Medical Imaging Platform",
+      description: "AI-powered chest X-ray diagnosis with explainable AI (xAI) featuring Grad-CAM heatmaps, concept-based reasoning, similar case retrieval, and automated medical report generation.",
+      technologies: ["React", "Electron", "FastAPI", "PyTorch", "PostgreSQL", "AWS S3", "MedGemma", "Zilliz"],
+      githubUrl: "https://github.com/Tuprott991/MedSightAI-DataForLife",
+      liveUrl: "https://youtu.be/JH4Do-rQ58w",
+      image: "https://github.com/Tuprott991/MedSightAI-DataForLife/blob/main/frontend/src/public/x-ray-box.png?raw=true"
+    },
+    {
+      title: "Galaxy Of Knowledge",
+      description: "An interactive 3D universe of NASA research papers powered by AI. Navigate through research papers visualized as stars in 3D space with semantic search and AI-powered analysis.",
+      technologies: ["React", "Three.js", "FastAPI", "PostgreSQL", "Google Vertex AI", "LightRAG"],
+      githubUrl: "https://github.com/Tuprott991/Galaxy-of-Knowledge",
+      liveUrl: "https://galaxy-of-knowledge-eta.vercel.app/",
+      image: "https://github.com/Tuprott991/Galaxy-of-Knowledge/blob/main/read%20paper.jpg?raw=true"
+    },
+    {
       title: "VPFlow - AI-Powered Process Redesign",
       description: "A serverless web application that leverages AI to optimize and redesign business processes in dynamic swimlane diagrams.",
       technologies: ["React", "FastAPI", "AWS S3, DynamoDB, Neptune", "AWS SageMaker, Bedrock, Lambda"],
@@ -69,7 +85,7 @@ const Projects = () => {
       description: "A Full-stack web application that combines blockchain and AI technology for efficient and personalized education, that have functions like lightRAG-chatbot, creating courses, taking quizzes, and more.",
       technologies: ["FastAPI", "React", "Langchain", "Solidity", "Azure", "PostgreSQL"],
       githubUrl: "https://github.com/Tuprott991/Educhain-AI",
-      image: "https://github.com/Tuprott991/Educhain-AI/blob/main/frontend/public/CourseDetails/courseimage.png?raw=true"
+      image: "https://github.com/Tuprott991/Educhain-AI/blob/main/frontend/public/Intro/IntroBanner.jpg?raw=true"
     },
     {
       title: "Eventslens - Multi-label photo album event recognition",
