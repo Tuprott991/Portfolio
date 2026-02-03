@@ -164,7 +164,7 @@ const WorkExperience = () => {
       logo: '/vnemex.png',
       position: 'AI/ML Intern',
       employmentType: 'Full-time',
-      duration: 'Apr 2025 - Jul 2025 · 3 mos',
+      duration: 'Apr 2025 - Jul 2025 · 4 mos',
       location: 'Hybrid',
       description: 'Work on a cell segmentation & classification project. Researched & developed lightweight deep learning models for detection, segmentation, and classification. Also participated in a Biometric Recognition project, focusing on face detection, anti-spoofing, face recognition, and fast embedding comparison. Optimized models for real-time inference on edge devices.',
       skills: ['PyTorch', 'Research Skills', 'Computer Vision', 'Deep Learning', 'Edge Computing']
