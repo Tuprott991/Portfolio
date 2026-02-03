@@ -161,7 +161,7 @@ const WorkExperience = () => {
     },
     {
       company: 'Vnemex',
-      logo: 'https://wli-eco.com/wp-content/uploads/2023/12/vnemex.jpg',
+      logo: '/vnemex.png',
       position: 'AI/ML Intern',
       employmentType: 'Full-time',
       duration: 'Apr 2025 - Jun 2025 · 3 mos',
