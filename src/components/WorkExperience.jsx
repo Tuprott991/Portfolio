@@ -145,8 +145,9 @@ const WorkExperience = () => {
       employmentType: 'Full-time',
       duration: 'Jul 2025 - Present',
       location: 'Ho Chi Minh City, Vietnam',
-      description: `- Worked on Agentic AI systems, focusing on Reasoning-capable LLMs and advanced memory & RAG architectures
-                    - Developed voice-based AI components, including deep voice analysis and text-to-speech (TTS)`,
+      description: `- Agentic AI systems: Focusing on Reasoning-capable LLMs, efficient memory & RAG architectures
+                    - Voice Recording: Speech intent analysis, text-to-speech, VAD, SNR
+                    - OCR: Document understanding, image information extraction`,
       skills: ['Large Language Models', 'RAG', 'Vector Databases', 'Knowledge Graphs', 'Document Analysis', 'Agentic AI']     
     },
         {
