@@ -47,12 +47,12 @@ const PublicationItem = ({ title, authors, paperPdf, paperLink, conference, year
 const Publication = () => {
   const publications = [
     {
-      title: "An Interactive System For Visual Data Retrieval From Multimodal Input",
-      authors: ["Tu Van Nguyen", "Nghia Trung Duong", "Nhan Thanh Pham", "Thanh Xuan Luong", "Dang Duy Bui"],
-      conference: "The Eleventh International Symposium on Integrated Uncertainty in Knowledge Modelling and Decision Making (IUKM)",
-      year: "2025",
-      paperPdf: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29",
-      paperLink: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29"
+      title: "Clinical-Inspired Multi-View Retrieval with Spatial Residual Attention and Concept-Driven Explainability in Medical Images",
+      authors: ["Tu Van Nguyen", "Long Pham Nguyen Hai", "Viet Vo Hoai"],
+      conference: "18th International Conference on Computational Collective Intelligence (ICCCI 2026)", 
+      year: "2026",
+      paperPdf: "",
+      paperLink: "https://iccci.pwr.edu.pl/"
     },
     {
       title: "AIthena-Vision: Adaptive Temporal Multimodal Event Retrieval with LLM-generated Multiperspective Fusion",
@@ -61,6 +61,14 @@ const Publication = () => {
       year: "2025",
       paperPdf: "",
       paperLink: "https://soict.hcmus.edu.vn/2025/proceedings/"
+    },
+    {
+      title: "An Interactive System For Visual Data Retrieval From Multimodal Input",
+      authors: ["Tu Van Nguyen", "Nghia Trung Duong", "Nhan Thanh Pham", "Thanh Xuan Luong", "Dang Duy Bui"],
+      conference: "The Eleventh International Symposium on Integrated Uncertainty in Knowledge Modelling and Decision Making (IUKM)",
+      year: "2025",
+      paperPdf: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29",
+      paperLink: "https://link.springer.com/chapter/10.1007/978-981-96-4606-7_29"
     },
     // Add more publications as needed
   ];

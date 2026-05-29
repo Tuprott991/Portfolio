@@ -152,7 +152,7 @@ const WorkExperience = () => {
     },
         {
       company: 'New Turing Institue (NTI).',
-      logo: 'https://newturing.ai/_next/static/media/thumb.df09c5e4.jpg',
+      logo: '/nti.png',
       position: 'GStar NTI Global Talent Program 2025',
       employmentType: 'Full-time',
       duration: 'Jul 2025 - Dec 2025',
